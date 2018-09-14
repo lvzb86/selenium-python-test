@@ -33,8 +33,9 @@ for i in eles:
 time.sleep(5)
 
 # 在知乎首页的热点内容中有部分是四张照片，通过chrome工具查看可以知晓图片的尺寸是170*170，如果通过selenium是如何呢？
-img = driver.find_element(By.XPATH, '//*[@id="anony-sns"]/div/div[3]/div/div[1]/ul/li[1]/div/a/img') # 照例先定位元素
-print(img.size) # 很简单就可以得到图片的尺寸
+img = driver.find_element(
+    By.XPATH, '//*[@id="anony-sns"]/div/div[3]/div/div[1]/ul/li[1]/div/a/img')  # 照例先定位元素
+print(img.size)  # 很简单就可以得到图片的尺寸
 
 time.sleep(5)
 

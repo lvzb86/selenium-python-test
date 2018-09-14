@@ -21,8 +21,8 @@ ele = driver.find_element_by_xpath(
 # find_element_by_class_name
 # find_element_by_css_selector
 
-ele.click() # 点击已定位的元素
-driver.back() # 退回
+ele.click()  # 点击已定位的元素
+driver.back()  # 退回
 
 time.sleep(5)
 ele = driver.find_element(
